@@ -1,0 +1,25 @@
+# GitHub Pages configuration for RecToGo Privacy Policy
+title: RecToGo Privacy Policy
+description: Privacy Policy for RecToGo Audio Recording App
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Custom domain
+url: "https://policy.gorec.moriyatee.com"
+
+# Navigation
+header_pages:
+  - index.md
+  - privacy-policy.md
+  - privacy-policy-ja.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
