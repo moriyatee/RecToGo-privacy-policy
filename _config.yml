@@ -10,9 +10,12 @@ url: "https://policy.gorec.moriyatee.com"
 
 # Navigation
 header_pages:
-  - index.md
-  - privacy-policy.md
-  - privacy-policy-ja.md
+  - index.html
+  - index-en.html
+  - privacy-policy-ja.html
+  - privacy-policy.html
+  - terms.html
+  - terms-en.html
 
 # Plugins
 plugins:
