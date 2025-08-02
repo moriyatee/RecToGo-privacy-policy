@@ -21,9 +21,18 @@ body {
     padding: 0 20px;
 }
 
+/* App Icon */
+.app-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Header */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #9CB09C 0%, #829882 100%);
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -67,7 +76,7 @@ body {
 
 .language-toggle button.active {
     background: white;
-    color: #667eea;
+    color: #829882;
     border-color: white;
 }
 
@@ -96,11 +105,11 @@ body {
 
 .nav-links a:hover {
     background: #e9ecef;
-    color: #667eea;
+    color: #829882;
 }
 
 .nav-links a.active {
-    background: #667eea;
+    background: #829882;
     color: white;
 }
 
@@ -118,7 +127,7 @@ body {
     color: #495057;
     font-size: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid #829882;
     padding-bottom: 0.5rem;
 }
 
@@ -159,7 +168,7 @@ body {
     background: #f8f9fa;
     padding: 2rem;
     border-radius: 10px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #829882;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -169,7 +178,7 @@ body {
 }
 
 .feature-card h3 {
-    color: #667eea;
+    color: #829882;
     margin-bottom: 1rem;
     margin-top: 0;
 }
@@ -183,7 +192,7 @@ body {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    background: #667eea;
+    background: #829882;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -193,10 +202,14 @@ body {
     cursor: pointer;
 }
 
+.btn {
+    font-weight: bold;
+}
+
 .btn:hover {
-    background: #5a6fd8;
+    background: #6F836F;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(130, 152, 130, 0.3);
 }
 
 .btn-secondary {
@@ -225,7 +238,7 @@ body {
 }
 
 .link-card:hover {
-    border-color: #667eea;
+    border-color: #829882;
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
@@ -237,9 +250,9 @@ body {
 }
 
 .link-card a {
-    color: #667eea;
+    color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .link-card a:hover {
@@ -260,7 +273,7 @@ body {
 }
 
 .footer a {
-    color: #adb5bd;
+    color: #e5e7eb;
     text-decoration: none;
 }
 
@@ -279,7 +292,7 @@ body {
     color: #495057;
     font-size: 1.8rem;
     margin: 2rem 0 1rem 0;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #829882;
     padding-bottom: 0.5rem;
 }
 
@@ -309,7 +322,7 @@ body {
     content: counter(item) ".";
     counter-increment: item;
     font-weight: bold;
-    color: #667eea;
+    color: #829882;
     position: absolute;
     left: 0;
 }
