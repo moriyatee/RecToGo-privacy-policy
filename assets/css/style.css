@@ -25,9 +25,66 @@ body {
 .app-icon {
     width: 80px;
     height: 80px;
-    margin-bottom: 1rem;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 15px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* App Screenshot */
+.screenshot-container {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.app-screenshot {
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.screenshot-description {
+    width: 100%;
+}
+
+.screenshot-description h3 {
+    color: #829882;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.screenshot-description ul {
+    padding-left: 20px;
+}
+
+.screenshot-description li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .screenshot-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .app-screenshot {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    
+    .screenshot-description {
+        flex: 1;
+    }
 }
 
 /* Header */
