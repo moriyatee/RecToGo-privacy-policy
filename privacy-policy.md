@@ -2,7 +2,7 @@
 
 **Effective Date:** June 29, 2025
 
-Shohei Moriya (hereinafter referred to as "we" or "us") has established this Privacy Policy (hereinafter referred to as "this Policy") regarding the handling of users' personal information in the application "RecToGo" (hereinafter referred to as "this App") provided by us.
+moriyatee (hereinafter referred to as "we" or "us") has established this Privacy Policy (hereinafter referred to as "this Policy") regarding the handling of users' personal information in the application "RecToGo" (hereinafter referred to as "this App") provided by us.
 
 ## Article 1 (Information Collected and Purpose of Use)
 
