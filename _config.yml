@@ -26,3 +26,7 @@ plugins:
 exclude:
   - README.md
   - .gitignore
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
